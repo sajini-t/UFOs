@@ -1,0 +1,10 @@
+body {
+
+    color: #f7f7f7;
+  }
+  /* .jumbotron tells the stylesheet to apply the changes only to divs with a class of "jumbotron." */
+  .jumbotron {
+    background-image: url("../images/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
