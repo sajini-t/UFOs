@@ -8,10 +8,9 @@
 ### Results:
 
 #### You type the date in the following format 1/1/2010 and press enter. 
-#### - This d3.selectAll("input") when an criteria is entered in the search box and the enter key is pressed  d3.selectAll("input").on("change", updateFilters);
-#### - This inturn makes a call to the updateFilters function
-#### - Inside the update filters, we will update the js. data with the criteria entered by the user.
-#### - We use this filtered table to make a call to the build table which matches the user entered criteria.
+#### - When an criteria is entered in the search box and the enter key is pressed the event listener d3.selectAll("input").on("change", updateFilters) calls the updateFilters() function.
+#### - Inside the update filters, we will update the .js data with the criteria entered by the user.
+#### - We use this filtered table to make a call to the buildTable() function which matches the user entered criteria and builds the table.
 #### - Then we use Bootstrap in html to display this information on our webpage.
 
 <img src = "Resources/UFO_1.png" width = 500)>
